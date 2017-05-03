@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shop.Admin.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Shop.Admin.WebApi.HangfireConfig.DeployHangfire(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            加载配置文件
+            </summary>
+            <param name="services"></param>
+            <param name="Configuration"></param>
+        </member>
+        <member name="M:Shop.Admin.WebApi.HangfireConfig.UseHangfire(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            启动Hangfire
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:Shop.Admin.WebApi.HangfireConfig.StartBoot">
+            <summary>
+            开机任务
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.WebApi.SwaggerGenConfig.DeploySwaggerGen(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            配置api说明文档
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Shop.Admin.WebApi.ValidateModelAttribute">
+            <summary>
+            模型验证
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.AccountController.Add(Shop.Admin.WebApi.Models.Account.AddActVM)">
+            <summary>
+            添加管理员
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.AccountController.Update(Shop.Admin.WebApi.Models.Account.ModifyActVM)">
+            <summary>
+            修改管理员
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.AccountController.List(Shop.Admin.WebApi.Models.Account.ListActVM)">
+            <summary>
+            列出管理员
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.GroupController.Add(Shop.Admin.WebApi.Models.AddGroupVM)">
+            <summary>
+            添加角色分组
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.GroupController.Update(Shop.Admin.WebApi.Models.ModifyGroupVM)">
+            <summary>
+            修改角色分组
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.GroupController.List(Shop.Admin.WebApi.Models.ListGroupVM)">
+            <summary>
+            列出角色分组
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.GroupController.GetGroupEnum(System.Int64)">
+            <summary>
+            列出角色枚举值
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.ModuleController.Add(Shop.Admin.WebApi.Models.AddModuleVM)">
+            <summary>
+            添加模块
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.ModuleController.Update(Shop.Admin.WebApi.Models.ModifyModuleVM)">
+            <summary>
+            修改模块
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.ModuleController.List(Shop.Admin.WebApi.Models.ListModuleVM)">
+            <summary>
+            列出模块
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.ModuleController.GetModules(System.String)">
+            <summary>
+            获取当前登录用户拥有的模块
+            </summary>
+            <param name="UsrName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.ModuleController.GetModuleEnum(Shop.Admin.WebApi.Models.ListModuleEnumVM)">
+            <summary>
+            获取当前用户拥有的模块枚举值
+            <remarks>NodeType:0 获取子级模块,1 获取父级模块,其它 获取所有能获取模块</remarks>
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.CommonController.AddEnum(Shop.Admin.WebApi.Models.AddCommonEnumVM)">
+            <summary>
+            添加通用枚举
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.CommonController.ModifyEnum(Shop.Admin.WebApi.Models.ModifyCommonEnumVM)">
+            <summary>
+            修改通用枚举
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.CommonController.ListEnum(Shop.Admin.WebApi.Models.ListCommonEnumVM)">
+            <summary>
+            列出通用枚举
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.BoardController.Add(Shop.Admin.WebApi.Models.Comm.Board.AddBoardVM)">
+            <summary>
+            添加社区
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.BoardController.Update(Shop.Admin.WebApi.Models.Comm.Board.ModifyBoardVM)">
+            <summary>
+            修改社区
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.BoardController.List(Shop.Admin.WebApi.Models.ListVM)">
+            <summary>
+            列出社区
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.BoardController.ListEnum">
+            <summary>
+            列出社区枚举
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.Admin.WebApi.Controllers.Comm.CommentController">
+            <summary>
+            帖子评论
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.CommentController.Update(Shop.Admin.WebApi.Models.Comm.Comment.ModifyCmtVM)">
+            <summary>
+            禁/启用帖子评论
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.CommentController.List(Shop.Admin.WebApi.Models.ListVM)">
+            <summary>
+            列出帖子评论
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.CommunityController.GetCommEnum">
+            <summary>
+            获取所有社区分类Id和名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.CommunityController.Add(Shop.Admin.WebApi.Models.AddClassifyVM)">
+            <summary>
+            增加社区分类
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Comm.CommunityController.Update(Shop.Admin.WebApi.Models.ModifyClassifyVM)">
+            <summary>
+            修改社区分类,可修改图标
+            </summary>
+            <param name="env"></param>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.PostController.Add(Shop.Admin.WebApi.Models.Comm.Post.AddPostVM)">
+            <summary>
+            发帖
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.PostController.Update(Shop.Admin.WebApi.Models.Comm.Post.ModifyPostVM)">
+            <summary>
+            修改帖子
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.DefaultController.Login(Shop.Admin.WebApi.Models.Account.LoginVM)">
+            <summary>
+            管理员登录
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.DefaultController.ResetPwd(Shop.Admin.WebApi.Models.ResetPwdVM)">
+            <summary>
+            重置密码
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.DefaultController.GetVarifyCode">
+            <summary>
+            图形验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.Admin.WebApi.Controllers.FeedbackController">
+            <summary>
+            反馈处理
+            </summary>
+        </member>
+        <member name="T:Shop.Admin.WebApi.Controllers.HCarouselController">
+            <summary>
+            首页轮播图
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HCarouselController.Add(Shop.Admin.WebApi.Models.HCarousel.AddCarouselVM)">
+            <summary>
+            增加轮播图
+            </summary>
+            <param name="env"></param>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HCarouselController.Update(Shop.Admin.WebApi.Models.HCarousel.ModifyCarouselVM)">
+            <summary>
+            修改轮播图
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HCarouselController.List(Shop.Admin.WebApi.Models.ListVM)">
+            <summary>
+            列出轮播图
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.Admin.WebApi.Controllers.HDocController">
+            <summary>
+            首页文章
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HDocController.Add(Shop.Admin.WebApi.Models.HDoc.AddHDocVM)">
+            <summary>
+            添加列表
+            </summary>
+            <remarks>
+            SourceType 来源 1:微信文章 2:新闻  3:自定义 4:社区帖子 
+            SourceId 来源id 微信文章id,新闻id,自定义文章id
+            ViewType 文章类型 1：无图 2：一张图 3：三张图 4：广告 5：视频
+            </remarks>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HDocController.SetDetailUrlType(Shop.Admin.WebApi.Models.SetDocDetailVM)">
+            <summary>
+            设置详情链接类型
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.Admin.WebApi.Controllers.HNavController">
+            <summary>
+            首页导航
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HNavController.Update(Shop.Admin.WebApi.Models.HNav.ModifyHNavVM)">
+            <summary>
+            修改导航模块,可修改图标
+            </summary>
+            <param name="env"></param>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HNewsController.Update(Shop.Admin.WebApi.Models.ModifyHNewsVM)">
+            <summary>
+            修改新闻
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HNewsController.List(Shop.Admin.WebApi.Models.ListHNewsVM)">
+            <summary>
+            列出新闻
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HNewsController.ListEnum(Shop.Admin.WebApi.Models.ListNewsEnumVM)">
+            <summary>
+            新闻枚举
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HNewsController.ListNewsType">
+            <summary>
+            新闻类型枚举
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Home.HotVideoController.Add(Shop.Admin.WebApi.Models.Home.AddHotVideoVM)">
+            <summary>
+            增加热门视频
+            </summary>
+            <param name="env"></param>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Home.HotVideoController.Update(Shop.Admin.WebApi.Models.Home.ModifyHotVideoVM)">
+            <summary>
+            修改热门视频
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.Home.HotVideoController.List(Shop.Admin.WebApi.Models.ListVM)">
+            <summary>
+            列出热门视频
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.Admin.WebApi.Controllers.HVideoController">
+            <summary>
+            身边视频列表信息
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HVideoController.Add(Shop.Admin.WebApi.Models.HVideo.AddHVideoVM)">
+            <summary>
+            身边视频添加
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HVideoController.Update(Shop.Admin.WebApi.Models.HVideo.ModifyHVideoVM)">
+            <summary>
+            身边视频修改
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.HVideoController.List(Shop.Admin.WebApi.Models.ListVM)">
+            <summary>
+            身边视频列表
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.MemberController.List(Shop.Admin.WebApi.Models.ListMemberVM)">
+            <summary>
+            列出用户
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.MemberController.Modify(Shop.Admin.WebApi.Models.ModifyMemberVM)">
+            <summary>
+            修改用户状态
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.MomentController.List(Shop.Admin.WebApi.Models.ListMoodVM)">
+            <summary>
+            列出身边圈说说
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.MomentController.Modify(Shop.Admin.WebApi.Models.ModifyMoodVM)">
+            <summary>
+            修改身边圈说说
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.MomentController.Add(Shop.Admin.WebApi.Models.AddMoodVideoVM)">
+            <summary>
+            增加身边圈说说
+            </summary>
+            <param name="env"></param>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.NotifyController.PushSys(Shop.Admin.WebApi.Models.PushSysVM)">
+            <summary>
+            推送系统通知
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.NotifyController.PushNews(Shop.Admin.WebApi.Models.PushNewsVM)">
+            <summary>
+            推送今日头条
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.PlaceController.Add(Shop.Admin.WebApi.Models.AddRealPlaceVM)">
+            <summary>
+            添加站点
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.PlaceController.ModifyPlace(Shop.Admin.WebApi.Models.ModifyRealPlaceVM)">
+            <summary>
+            修改站点
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.PlaceController.ListPlace(Shop.Admin.WebApi.Models.ListRealPlaceVM)">
+            <summary>
+            列出站点
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.ServiceController.Update(Shop.Admin.WebApi.Models.ModifyServiceVM)">
+            <summary>
+            修改服务
+            </summary>
+            <param name="env"></param>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.Admin.WebApi.Controllers.StewardController">
+            <summary>
+            乘务员相关
+            </summary>
+            
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.StewardController.AddStewardInfo(Shop.Admin.WebApi.Models.AddStewardInfoVM)">
+            <summary>
+            新增乘务员并生成微信的注册url，手机号码是必须的
+            </summary>
+            <remarks>
+            其他信息如果没有，会从微信那边获取，该提示注意在前台显示
+            </remarks>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.StewardController.AddStewardLine(Shop.Admin.WebApi.Models.AddStewardLineVM)">
+            <summary>
+            乘务员添加对应的线路id
+            </summary>
+            <remarks>
+            需要去获取系统现有的线路信息
+            </remarks>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.StewardController.StewardInfoList(Shop.Admin.WebApi.Models.StewardInfoListVM)">
+            <summary>
+            列出乘务员
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.StewardController.ListStewardLines(System.Int64)">
+            <summary>
+            获取该乘务员拥有的线路信息
+            </summary>
+            <param name="StewardId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.StewardController.ListLineStewards(System.Int64)">
+            <summary>
+            获取该线路下所有的乘务员信息
+            </summary>
+            <param name="LineId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.StewardController.ModifyStewardInfo(Shop.Admin.WebApi.Models.ModifyStewardInfoVM)">
+            <summary>
+            修改乘务员的个人信息
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.StewardController.ModifyStewardLine(Shop.Admin.WebApi.Models.ModifyStewardLineVM)">
+            <summary>
+            更新乘务员对应的线路
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.Admin.WebApi.Controllers.TestController">
+            <summary>
+            提交
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.WeChatController.List(Shop.Admin.WebApi.Models.ListWeChatVM)">
+            <summary>
+            公众号列表
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.WeChatController.TopicList(Shop.Admin.WebApi.Models.ListWeChatTopicVM)">
+            <summary>
+            文章列表
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.WeChatController.Update(Shop.Admin.WebApi.Models.ModifyWeChatVM)">
+            <summary>
+            显/隐公众号
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.WeChatController.GetTopicDetail(System.String)">
+            <summary>
+            获取微信文章详情
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.WeChatController.UpdateTopicContent(Shop.Admin.WebApi.Models.ModifyTopicVM)">
+            <summary>
+            微信文章修改
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.WeChatController.AddTopicAd(Shop.Admin.WebApi.Models.AddTopicAdVM)">
+            <summary>
+            增加热门文章广告
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.WebApi.Controllers.WeChatController.UpdateTopic(Shop.Admin.WebApi.Models.ModifyTopicAdVM)">
+            <summary>
+            修改热门文章广告
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.Admin.WebApi.AddAuthTokenHeaderParameter">
+            <summary>
+            this class is for swagger to generate AuthToken Header filed on swagger UI
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListModuleEnumVM.NodeType">
+            <summary>
+            0：获取子级模块 1:获取父级模块  其它：全部可获取模块
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ResetPwdVM.OldPwd">
+            <summary>
+            旧密码
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ResetPwdVM.NewPwd">
+            <summary>
+            新密码
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddClassifyVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Board.AddBoardVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Board.AddBoardVM.IsDefault">
+            <summary>
+            是否为默认展示社区
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Board.ModifyBoardVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Board.ModifyBoardVM.IsDefault">
+            <summary>
+            是否为默认展示社区
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Post.AddPostVM.Status">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Post.ListPostVM.UsrName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Post.ListPostVM.CommName">
+            <summary>
+            社区名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Post.ListPostVM.Topic">
+            <summary>
+            话题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Comm.Post.ModifyPostVM.Status">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyClassifyVM.File">
+            <summary>
+            上传图片字段
+            </summary>       
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HCarousel.AddCarouselVM.Url">
+            <summary>
+            连接信息
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HCarousel.AddCarouselVM.Status">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HCarousel.AddCarouselVM.Sort">
+            <summary>
+            顺序
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HCarousel.AddCarouselVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HCarousel.ModifyCarouselVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.AddHDocVM.Url">
+            <summary>
+            http跳转Url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.AddHDocVM.OriginUrl">
+            <summary>
+            原生跳转Url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.AddHDocVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.AddHDocVM.SourceType">
+            <summary>
+            来源 1:微信文章 2:新闻  3:自定义 4:社区帖子 
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.AddHDocVM.ViewType">
+            <summary>
+            文章类型 1：无图 2：一张图 3：三张图 4：广告 5：视频
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.AddHDocVM.SourceId">
+            <summary>
+            来源id 微信文章id,新闻id,自定义文章id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.ModifyHDocVM.Url">
+            <summary>
+            http跳转url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.ModifyHDocVM.OriginUrl">
+            <summary>
+            原生跳转Url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.ModifyHDocVM.ViewType">
+            <summary>
+            文章类型 1：无图 2：一张图 3：三张图 4：广告
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HDoc.ModifyHDocVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.SetDocDetailVM.SourceType">
+            <summary>
+            来源 1:微信文章 2:新闻  3:自定义(此为全部) 4:社区帖子 
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.SetDocDetailVM.UrlType">
+            <summary>
+            详情跳转链接类型：1：http 2:原生
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HNav.AddHNavVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.HNav.ModifyHNavVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListNewsEnumVM.NewsType">
+            <summary>
+            新闻类型
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListNewsEnumVM.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Home.AddHotVideoVM.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Home.AddHotVideoVM.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Home.AddHotVideoVM.IsHot">
+            <summary>
+            是否首页热门视频
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Home.ModifyHotVideoVM.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.Home.ModifyHotVideoVM.IsHot">
+            <summary>
+            是否首页热门视频
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListNotifyVM.NotifyType">
+            <summary>
+            0:评论通知 1:点赞通知 2:系统通知 3:今日头条 -1:全部
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListNotifyVM.Nick">
+            <summary>
+            用户昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.PushNewsVM.Title">
+            <summary>
+            状态栏标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.PushNewsVM.Target">
+            <summary>
+            目标 平台 0：所有 1：安卓 2：ios 3:个人
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.PushNewsVM.StatusBarMsg">
+            <summary>
+            状态栏消息
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.PushNewsVM.NewsId">
+            <summary>
+            新闻id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.PushSysVM.Title">
+            <summary>
+            状态栏标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.PushSysVM.Content">
+            <summary>
+            应用内的内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.PushSysVM.Target">
+            <summary>
+            目标 平台 0：所有 1：安卓 2：ios 3:个人
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.PushSysVM.StatusBarMsg">
+            <summary>
+            状态栏消息
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddRealPlaceVM.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddRealPlaceVM.Lng">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddRealPlaceVM.Address">
+            <summary>
+            详细地址
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyRealPlaceVM.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyRealPlaceVM.Lng">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyRealPlaceVM.Address">
+            <summary>
+            详细地址
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ReportListVM.Status">
+            <summary>
+            举报的状态
+            -1.无效举报
+            0.未处理
+            1.有效举报
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddEndPointVM.LineId">
+            <summary>
+            运营线路Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddEndPointVM.PlaceId">
+            <summary>
+            下车点Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddEndPointVM.Price">
+            <summary>
+            车票价格
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddEndPointVM.Status">
+            <summary>
+            是否停用下车点
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddEndPointVM.Sort">
+            <summary>
+            到达顺序
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddPlaceVM.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddPlaceVM.Lng">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddPlaceVM.Address">
+            <summary>
+            详细地址
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddPlanVM.WorkDate">
+            <summary>
+            运行日期
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddPlanVM.LineIds">
+            <summary>
+            线路id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddPlanVM.TicketNum">
+            <summary>
+            出售票数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddPlanVM.Status">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddPlanVM.IsEntire">
+            <summary>
+            是否全部生成
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddStartPointVM.LineId">
+            <summary>
+            运营线路id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddStartPointVM.PlaceId">
+            <summary>
+            上车点id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddStartPointVM.BoardTime">
+            <summary>
+            上车时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddStartPointVM.Status">
+            <summary>
+            是否停用上车点
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListAddressVM.CityId">
+            <summary>
+            城市id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListAddressVM.PlaceId">
+            <summary>
+            站点id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListComVM.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListLineVM.Line">
+            <summary>
+            班次编号
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListLineVM.Route">
+            <summary>
+            高速线路
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListLineVM.TargetCity">
+            <summary>
+            目的城市
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListOrderVM.BoardDate">
+            <summary>
+            上车日期
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListOrderVM.OrderSTime">
+            <summary>
+            下单开始时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListOrderVM.OrderETime">
+            <summary>
+            下单结束时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListOrderVM.IsPay">
+            <summary>
+            是否支付 0：待支付 1：已支付
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListOrderVM.IsConfirm">
+            <summary>
+            是否确认 0:已失效 1：待确认 2：已确认
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListPlanVM.Line">
+            <summary>
+            班次编号
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ListPlanVM.WorkDate">
+            <summary>
+            运行日期
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyEndPointVM.LineId">
+            <summary>
+            运营线路Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyEndPointVM.PlaceId">
+            <summary>
+            下车点Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyEndPointVM.Price">
+            <summary>
+            车票价格
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyEndPointVM.Status">
+            <summary>
+            是否停用下车点
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyEndPointVM.Sort">
+            <summary>
+            到达顺序
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyPlaceVM.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyPlaceVM.Lng">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyPlaceVM.Address">
+            <summary>
+            详细地址
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyStartPointVM.LineId">
+            <summary>
+            运营线路id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyStartPointVM.PlaceId">
+            <summary>
+            上车点id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyStartPointVM.BoardTime">
+            <summary>
+            上车时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyStartPointVM.Status">
+            <summary>
+            是否停用上车点
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddTopicAdVM.Url">
+            <summary>
+            广告跳转链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.AddTopicAdVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyTopicAdVM.Url">
+            <summary>
+            广告跳转链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.WebApi.Models.ModifyTopicAdVM.File">
+            <summary>
+            上传图片字段
+            </summary>
+        </member>
+    </members>
+</doc>
