@@ -1,0 +1,1467 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shop.Admin.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Shop.Admin.Domain.Models.BlackList.UserInfo">
+            <summary>
+            对应粉丝的用户信息
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Comm_Board.Id">
+            <summary>
+            数据库中的Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Comm_Board.CommId">
+            <summary>
+            数据库中的Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Common_Enum.Name">
+            <summary>
+            枚举名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Common_Enum.Value">
+            <summary>
+            枚举值
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Common_Enum.Sort">
+            <summary>
+            枚举排序
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Common_Enum.App_Module">
+            <summary>
+            枚举所属模块
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Common_Enum.Status">
+            <summary>
+            是否启用 1:启用 0:禁用
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Common_Enum.Other">
+            <summary>
+            枚举代号
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Common_Enum.Url">
+            <summary>
+            枚举跳转url
+            </summary>
+        </member>
+        <member name="T:Shop.Admin.Domain.Models.CommPostItem">
+            <summary>
+            多媒体文件
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.BoardId">
+            <summary>
+            社区Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.ReadCount">
+            <summary>
+            阅读数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.CmtCount">
+            <summary>
+            评论数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.Synopsis">
+            <summary>
+            简介
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.LikeCount">
+            <summary>
+            喜欢人数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.Video">
+            <summary>
+            相关视频
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.Img">
+            <summary>
+            相关图片
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.Thumb">
+            <summary>
+            相关缩略图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.ViewType">
+            <summary>
+            展示类型
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.IsTop">
+            <summary>
+            是否置顶
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.BoardName">
+            <summary>
+            社区名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.IsVirtualPublish">
+            <summary>
+            后台发布的帖子
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.UsrName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.IsPushed">
+            <summary>
+            是否已推送到首页
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.CommPostItem.ImgStr">
+             <summary>
+            图片url
+             </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Carousel.Url">
+            <summary>
+            跳转信息
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.Url">
+            <summary>
+            http跳转链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.OriginUrl">
+            <summary>
+            原生跳转Url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.ReadCount">
+            <summary>
+            浏览数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.Avatar">
+            <summary>
+            视频缩略图或图片链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.CmtCount">
+            <summary>
+            评论数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.Author">
+            <summary>
+            来源
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.ViewType">
+            <summary>
+            文章类型 1：无图 2：一张图 3：三张图 4：广告
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.VUrl">
+            <summary>
+            视频链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.AuthorImg">
+            <summary>
+            作者头像
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.Source">
+            <summary>
+            来源
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.SourceType">
+            <summary>
+            来源id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.UrlType">
+            <summary>
+            文章类型 1：无图 2：一张图 3：三张图 4：广告
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Doc.IsTop">
+            <summary>
+            是否置顶
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_HotVideo.Author">
+            <summary>
+            来源
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_HotVideo.ReadCount">
+            <summary>
+            观看数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_HotVideo.CmtCount">
+            <summary>
+            评论数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReplyView.Id">
+            <summary>
+            回复id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReplyView.AliasId">
+            <summary>
+            回复人id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReplyView.Nick">
+            <summary>
+            回复人昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReplyView.Content">
+            <summary>
+            回复内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReplyView.BeReplyId">
+            <summary>
+            被回复的内容id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReplyView.DocId">
+            <summary>
+            视频id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReplyView.CmtId">
+            <summary>
+            所属评论id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_Nav.Sort">
+            <summary>
+            app导航图标位置
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_News.Title">
+            <summary>
+            新闻标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_News.Url">
+            <summary>
+            新闻链接地址
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_News.PUrl">
+            <summary>
+            图片链接地址
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_News.Author">
+            <summary>
+            报社名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_News.Other">
+            <summary>
+            备用字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Home_News.CTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.NewsReplyView.Id">
+            <summary>
+            回复id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.NewsReplyView.AliasId">
+            <summary>
+            回复人id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.NewsReplyView.Nick">
+            <summary>
+            回复人昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.NewsReplyView.Content">
+            <summary>
+            回复内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.NewsReplyView.BeReplyId">
+            <summary>
+            被回复的内容id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.NewsReplyView.DocId">
+            <summary>
+            视频id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.NewsReplyView.CmtId">
+            <summary>
+            所属评论id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Member_Report.SourceId">
+            <summary>
+            源ID
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Member_Report.SourceType">
+            <summary>
+            源类型
+            0.用户
+            1.帖子
+            2.社区帖子的评论
+            3.身边圈说说
+            4.视频评论
+            5.微信文章的评论
+            6.新闻的评论
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Member_Report.SourceTypeSrc">
+            <summary>
+            源类型
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Member_Report.TypeId">
+            <summary>
+            举报原因的类型
+            0.恶意攻击谩骂
+            1.淫秽色情
+            2.政治反动
+            3.其他原因
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Member_Report.TypeSrc">
+            <summary>
+             举报原因
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Member_Report.Remark">
+            <summary>
+            选其他原因的投诉，填写的内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Member_Report.Status">
+            <summary>
+            举报的状态
+            -1.举报无效
+            0.未处理
+            1.举报有效
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.Member_Report.Nick">
+            <summary>
+            举报人昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.MomentKeyworks.Key">
+            <summary>
+            话题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.MomentKeyworks.PUrl">
+            <summary>
+            话题背景图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.MomentKeyworks.PicCount">
+            <summary>
+            发布人发布的图片数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.MomentKeyworks.IssuerCount">
+            <summary>
+            发布人数量
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.MomentKeyworks.AttentCount">
+            <summary>
+            参与人数量
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.MomentKeyworks.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.Id">
+            <summary>
+            房间ID
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.Title">
+            <summary>
+            房间标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.RoomNum">
+            <summary>
+            房间编码 bizid_roomnum
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.ReadCount">
+            <summary>
+            观看数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.Status">
+            <summary>
+            直播状态 0:已结束 1:直播中 -1:已禁播 
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.CoverUrl">
+            <summary>
+            房间封面
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.PushUrl">
+            <summary>
+            推流url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.Anchor">
+            <summary>
+            主播信息
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.Count">
+            <summary>
+            离线次数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorRoom.AppUsage">
+            <summary>
+            app跳转url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.Id">
+            <summary>
+            房间ID
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.Title">
+            <summary>
+            房间标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.RoomNum">
+            <summary>
+            房间编码 bizid_roomnum
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.ReadCount">
+            <summary>
+            观看数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.LikeCount">
+            <summary>
+            点赞数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.Status">
+            <summary>
+            直播状态 0:已结束 1:直播中 -1:已禁播 
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.CoverUrl">
+            <summary>
+            房间封面
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.LikeStatus">
+            <summary>
+            是否点赞 1为已点赞 0为未点赞
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.RoomInfo.Anchor">
+            <summary>
+            主播信息
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorInfo.Author">
+            <summary>
+            主播名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorInfo.AuthorImg">
+            <summary>
+            主播头像
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.AnchorInfo.Remark">
+            <summary>
+            主播个性签名
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.OutPutInfo.rate_type">
+            <summary>
+            0:原始码率；10:普清；20:高清
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.OutPutInfo.recv_type">
+            <summary>
+            1:rtmp/flv；2:hls；3:rtmp/flv+hls
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.OutPutInfo.status">
+            <summary>
+            0:断流；1:开启；3:关闭
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReply.PId">
+            <summary>
+            被回复的Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReply.UsrId">
+            <summary>
+            回复人
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReply.Floor">
+            <summary>
+            楼层
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SVideoReply.VideoId">
+            <summary>
+            视频Id
+            </summary>
+        </member>
+        <member name="T:Shop.Admin.Domain.Models.SysMedia">
+            <summary>
+            多媒体文件
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysMedia.MediaType">
+            <summary>
+            媒体类型，0为图片，1为视频
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysMedia.ContentType">
+            <summary>
+            具体的媒体类型名
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysMedia.Url">
+            <summary>
+            访问地址
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysMedia.ThumbUrl">
+            <summary>
+            缩略图访问地址
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysMedia.Description">
+            <summary>
+            描述,暂时为空
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysMedia.HashCode">
+            <summary>
+            哈希值，主要判断是否已经存在
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysMedia.Direction">
+            <summary>
+            视频方向 1:竖屏 0:横屏
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysVedioShowItem.PositionName">
+            <summary>
+            占位符名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysVedioShowItem.Alt">
+            <summary>
+            alt标签
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysVedioShowItem.Src">
+            <summary>
+            超链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysVedioShowItem.Avatar">
+            <summary>
+            缩略图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysImgShowItem.PositionName">
+            <summary>
+            占位符名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysImgShowItem.Alt">
+            <summary>
+            alt标签
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysImgShowItem.Src">
+            <summary>
+            超链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysImgShowItem.Width">
+            <summary>
+            宽
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.SysImgShowItem.Height">
+            <summary>
+            高
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Classify.Id">
+            <summary>
+            数据库中的Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Id">
+            <summary>
+            数据库中的Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.UniqueId">
+            <summary>
+            唯一Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Words">
+            <summary>
+            字数统计
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Url">
+            <summary>
+            微信的访问url，非微信浏览器过期不能访问
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Avatar">
+            <summary>
+            缩略图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Title">
+            <summary>
+            提取的标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Orgin_Title">
+            <summary>
+            微信原文标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Abstract">
+            <summary>
+            导读
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Source">
+            <summary>
+            微信原文等
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Content">
+            <summary>
+            微信内文等
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Read_Num">
+            <summary>
+            抓取时阅读的人数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Like_Num">
+            <summary>
+            抓取时喜欢的人数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Publish_Time">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Create_Time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Update_Time">
+            <summary>
+            最近一次修改时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.Available">
+            <summary>
+            是否可用
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_Topic.WeChat_Id">
+            <summary>
+            对应数据库中微信公众号的ID
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.Id">
+            <summary>
+            数据库中的Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.Avatar">
+            <summary>
+            缩略图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.ClassId">
+            <summary>
+            所属分类的Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.QrCode">
+            <summary>
+            二维码
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.Name">
+            <summary>
+            公众号的名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.WechatId">
+            <summary>
+            公众号的微信id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.Intro">
+            <summary>
+            公众号的简介
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.Create_Time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WeChat_WeChat.Status">
+            <summary>
+            数据库中的Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Models.WhiteList.UserInfo">
+            <summary>
+            对应粉丝的用户信息
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.Member.IsAnchor">
+            <summary>
+            是否为主播 1：是  0：否
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.ViewType">
+            <summary>
+             1:只是文字 2:单图文 3:多图文 5:视频加文字
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.Video">
+            <summary>
+            相关视频
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.Img">
+            <summary>
+            相关图片
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.Thumb">
+            <summary>
+            视频或者图片的缩略图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.Topic">
+            <summary>
+            话题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.MutualVisible">
+            <summary>
+            是否只允许好友查看
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.Nick">
+            <summary>
+            发布人昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.AppUsage">
+            <summary>
+            原生跳转url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsMoodItem.AliasId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.ApiKey">
+            <summary>
+            API鉴权key
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.PushKey">
+            <summary>
+            推流防盗链Key
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.Account">
+            <summary>
+            管理员帐号
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.SdkAppId">
+            <summary>
+            SDKAPPID
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.AppId">
+            <summary>
+            appid
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.BizId">
+            <summary>
+            bizid
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.CallBack">
+            <summary>
+            回调url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.UsrSigApi">
+            <summary>
+            生成签名api
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.QCloud.PlayKey">
+            <summary>
+            播放鉴权key
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.AccountTable.GroupName">
+            <summary>
+            角色分组名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.BoardTable.ClassifyName">
+            <summary>
+            分类名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.BoardTable.Title">
+            <summary>
+            社区名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.BoardTable.CommId">
+            <summary>
+            分类id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.BoardTable.PUrl">
+            <summary>
+            图标url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.BoardTable.Remark">
+            <summary>
+            介绍
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.ContentFragVto.Url">
+            <summary>
+            部分页链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.ContentFragVto.Height">
+            <summary>
+            页面高度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.ContentFragVto.Width">
+            <summary>
+            页面宽度
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.ContentFragVto.ModuleName">
+            <summary>
+            模块名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.UsrName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.BoardId">
+            <summary>
+            社区Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.BoardName">
+            <summary>
+            社区名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.ReadCount">
+            <summary>
+            阅读数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.CmtCount">
+            <summary>
+            评论数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.LikeCount">
+            <summary>
+            点赞数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.IsTop">
+            <summary>
+            是否置顶
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.CTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.MTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.OriginUrl">
+            <summary>
+            原生跳转url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.Url">
+             <summary>
+            http跳转url
+             </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.ViewType">
+            <summary>
+            1 文字，2 单图，3 多图，4 广告，5 视频
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.IsPushed">
+            <summary>
+            是否已推送到首页
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.PostVto.IsVirtualPublish">
+            <summary>
+            后台发布的帖子
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.WeChatList.ClassName">
+            <summary>
+            所属分类
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.WeChatList.Name">
+            <summary>
+            微信公众号名
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.WeChatList.WeChatId">
+            <summary>
+            微信公众号Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.WeChatList.NetCrawlTime">
+            <summary>
+            下次抓取时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ValueToObject.WeChatList.Status">
+            <summary>
+            启/停用
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HDocVto.Content">
+            <summary>
+            导读
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HDocVto.PUrl">
+            <summary>
+            缩略图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HDocVto.CmtCount">
+            <summary>
+            评论数
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HDocVto.Author">
+            <summary>
+            来源
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HDocVto.Other">
+            <summary>
+            备用字段
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HDocVto.ViewType">
+            <summary>
+            文章类型 1：无图 2：一张图 3：三张图 4：广告
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HDocVto.IsPushed">
+            <summary>
+            是否已推送到首页
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HotVideoTable.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HotVideoTable.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HotVideoTable.Avatar">
+            <summary>
+            视频缩略图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HotVideoTable.Url">
+            <summary>
+            视频链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HotVideoTable.Classify">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.HotVideoTable.ClassifyId">
+            <summary>
+            分类id
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Shop.Admin.Domain.MomentsCmtView.Id" -->
+        <member name="P:Shop.Admin.Domain.MomentsCmtView.AliasId">
+            <summary>
+            回复人id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsCmtView.BeAliasId">
+            <summary>
+            被回复人id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsCmtView.Nick">
+            <summary>
+            回复人昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsCmtView.BeNick">
+            <summary>
+            被回复人昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsCmtView.Content">
+            <summary>
+            回复内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.MomentsCmtView.MoodId">
+            <summary>
+            动态id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.Title">
+            <summary>
+            新闻标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.Url">
+            <summary>
+            http跳转url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.PUrl">
+            <summary>
+            新闻图片链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.Author">
+            <summary>
+            新闻来源
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.ViewType">
+            <summary>
+            内容类型 2：单张图（实则两张图，在app只取一张显示） 3：三张图
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.Status">
+            <summary>
+            是否可见
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.CTime">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.IsTop">
+            <summary>
+            是否为头条
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.RealType">
+            <summary>
+            新闻类型
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.RealUrl">
+            <summary>
+            真实新闻跳转链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.OriginUrl">
+            <summary>
+            原生跳转url
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NewsList.IsPushed">
+            <summary>
+            是否已推送到首页
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NotifyTable.MsgType">
+            <summary>
+            0:消息通知 1:我的
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NotifyTable.NotifyType">
+            <summary>
+            0:评论通知 1:私信通知 2:点赞通知 3:系统通知 4:今日头条 5:新粉丝通知
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NotifyTable.IsRead">
+            <summary>
+            是否已查看
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NotifyTable.IsAllOwn">
+            <summary>
+            是否为广播
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NotifyTable.SourceType">
+            <summary>
+            0:朋友圈 1:社区帖子 2:身边视频 -1:其它
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NotifyTable.Receiver">
+            <summary>
+            接收人（用户）
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NotifyTable.Mobile">
+            <summary>
+            用户手机号
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.NotifyTable.UsrId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ContentProcess.Videos">
+            <summary>
+            视频集合
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.WeChatTopicList.WeChatName">
+            <summary>
+            微信公众号名称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.WeChatTopicList.WeChatId">
+            <summary>
+            微信公众号Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.WeChatTopicList.UniqueId">
+            <summary>
+            文章唯一Id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.WeChatTopicList.Title">
+            <summary>
+            文章标题
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.WeChatTopicList.Abstract">
+            <summary>
+            文章导读
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.WeChatTopicList.AppUsage">
+            <summary>
+            调用链接
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.WeChatTopicList.Publish_Time">
+            <summary>
+            文章发布时间
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ReplyView.Id">
+            <summary>
+            回复id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ReplyView.AliasId">
+            <summary>
+            回复人id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ReplyView.Nick">
+            <summary>
+            回复人昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ReplyView.Content">
+            <summary>
+            回复内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ReplyView.BeReplyId">
+            <summary>
+            被回复的内容id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ReplyView.DocId">
+            <summary>
+            文章id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.ReplyView.CmtId">
+            <summary>
+            所属评论id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.CommonReplyView.Id">
+            <summary>
+            回复id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.CommonReplyView.AliasId">
+            <summary>
+            回复人id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.CommonReplyView.Nick">
+            <summary>
+            回复人昵称
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.CommonReplyView.Content">
+            <summary>
+            回复内容
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.CommonReplyView.BeReplyId">
+            <summary>
+            被回复的内容id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.CommonReplyView.DocId">
+            <summary>
+            文章id
+            </summary>
+        </member>
+        <member name="P:Shop.Admin.Domain.CommonReplyView.CmtId">
+            <summary>
+            所属评论id
+            </summary>
+        </member>
+        <member name="F:Shop.Admin.Domain.VerifyHelper.DefaultDigits">
+            <summary>
+            默认的验证码位数
+            </summary>
+        </member>
+        <member name="F:Shop.Admin.Domain.VerifyHelper.ImageWidthPerChar">
+            <summary>
+            每个字符的宽度
+            </summary>
+        </member>
+        <member name="F:Shop.Admin.Domain.VerifyHelper.ImageHeight">
+            <summary>
+            验证码图片的高度
+            </summary>
+        </member>
+        <member name="F:Shop.Admin.Domain.VerifyHelper.ImagePadding">
+            <summary>
+            图片边距
+            </summary>
+        </member>
+        <member name="F:Shop.Admin.Domain.VerifyHelper.InterferenceLines">
+            <summary>
+            干扰线数量
+            </summary>
+        </member>
+        <member name="F:Shop.Admin.Domain.VerifyHelper.CharGraphicMaxPadding">
+            <summary>
+            字符图表的最大拉伸量
+            </summary>
+        </member>
+        <member name="F:Shop.Admin.Domain.VerifyHelper.CharGraphicMaxRotate">
+            <summary>
+            字符图表的最大旋转量
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.Domain.VerifyHelper.Next(System.Int32)">
+            <summary>
+            获得下一个随机数
+            </summary>
+            <param name="max">最大值</param>
+        </member>
+        <member name="M:Shop.Admin.Domain.VerifyHelper.Next(System.Int32,System.Int32)">
+            <summary>
+            获得下一个随机数
+            </summary>
+            <param name="min">最小值</param>
+            <param name="max">最大值</param>
+        </member>
+        <member name="M:Shop.Admin.Domain.VerifyHelper.Generate(System.String@,System.Int32)">
+            <summary>
+            生成验证码并储存验证码到会话中
+            </summary>
+            <param name="key">使用的键名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.Admin.Domain.VerifyHelper.GetRandomColor">
+            <summary>
+            字体随机颜色
+            </summary>
+        </member>
+        <member name="T:Shop.Admin.Domain.Rand">
+            <summary>
+            验证码类
+            </summary>
+        </member>
+        <member name="M:Shop.Admin.Domain.Rand.Number(System.Int32)">
+            <summary>
+            生成随机数字
+            </summary>
+            <param name="length">生成长度</param>
+        </member>
+        <member name="M:Shop.Admin.Domain.Rand.Number(System.Int32,System.Boolean)">
+            <summary>
+            生成随机数字
+            </summary>
+            <param name="Length">生成长度</param>
+            <param name="Sleep">是否要在生成前将当前线程阻止以避免重复</param>
+        </member>
+        <member name="M:Shop.Admin.Domain.Rand.Str(System.Int32)">
+            <summary>
+            生成随机字母与数字
+            </summary>
+            <param name="IntStr">生成长度</param>
+        </member>
+        <member name="M:Shop.Admin.Domain.Rand.Str(System.Int32,System.Boolean)">
+            <summary>
+            生成随机字母与数字
+            </summary>
+            <param name="Length">生成长度</param>
+            <param name="Sleep">是否要在生成前将当前线程阻止以避免重复</param>
+        </member>
+        <member name="M:Shop.Admin.Domain.Rand.Str_char(System.Int32)">
+            <summary>
+            生成随机纯字母随机数
+            </summary>
+            <param name="IntStr">生成长度</param>
+        </member>
+        <member name="M:Shop.Admin.Domain.Rand.Str_char(System.Int32,System.Boolean)">
+            <summary>
+            生成随机纯字母随机数
+            </summary>
+            <param name="Length">生成长度</param>
+            <param name="Sleep">是否要在生成前将当前线程阻止以避免重复</param>
+        </member>
+    </members>
+</doc>
